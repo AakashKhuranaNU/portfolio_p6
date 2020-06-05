@@ -44,7 +44,7 @@ body{
     height :500px;
     display: block;
     word-wrap: normal;
-    outline: solid pink;
+    /* outline: solid pink; */
     margin-left: 450px;
 }
 
@@ -76,7 +76,7 @@ body{
     width:130px;
     position: relative;
     display: inline-block;
-    outline: solid orange;
+    /* outline: solid orange; */
 
 }
 
@@ -91,7 +91,7 @@ body{
     /* text-justify: auto; */
     /* word-wrap: normal; */
     /* display: inline; */
-    outline: solid orange;
+    /* outline: solid orange; */
 
     
 }
@@ -105,7 +105,7 @@ body{
     width: 200px;
     font-size: 28px;
     /* display: inline; */
-    outline: solid purple;
+    /* outline: solid purple; */
     /* margin: 0px; */
 }
 
