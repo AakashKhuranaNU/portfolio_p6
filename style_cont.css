@@ -1,0 +1,140 @@
+body{
+    background-color: whitesmoke;
+}
+.contact{
+    position: relative;
+    left :620px;
+    top:-520px;
+    /* line-height: 5px; */
+    /* padding: 10px; */
+    /* outlin   e: solid purple; */
+
+}
+
+.icon{
+    max-height: 70px;
+    max-width: 70px;
+
+    /* outline: solid purple; */
+
+}
+
+.contact a{
+    /* width:05px;
+    height: 05px; */
+    /* outline: solid red;   */
+    text-decoration: none;
+}
+.contact li{
+    position: relative;
+    list-style: none;
+    color: black;
+    /* outline: solid green; */
+    font-size: 28px;
+    left :150px;
+    top:-60px;
+
+}
+
+.header{
+    position: relative;
+    margin-left: 700px;
+    font-size: 28px;
+    /* text-decoration: underline; */
+}
+
+.main{
+    position: relative;
+    margin-left: -8px;
+    margin-top: -140px;
+    /* margin-top: ; */
+    width: 280px;
+
+    color:whitesmoke;
+    height: 735px;
+    /* outline: solid pink; */
+    background-color: black;
+    opacity: 0.90;
+
+}
+
+.main img{
+    position: relative;
+    width:150px;
+    height: 150px;
+    left:50px;
+    margin-top: 40px;
+    /* margin-left: 100px; */
+    border-radius: 50%;
+    opacity: 1.0;
+    /* outline: solid red; */
+    
+}
+
+
+
+.main nav{
+    position: relative;
+    margin-top:60px;
+    font-size:25px;
+    /* transform: translateY(10px); */
+    text-transform: uppercase;
+}
+
+nav ul{
+    list-style: none;
+    margin-top: 0px;
+    /* transform: translateY(130px); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+li:hover{
+    text-decoration: underline;
+    color: teal;
+    text-shadow: royalblue;
+}
+
+
+nav li{
+    padding: 10px;
+
+    margin-left: 0px;
+    text-align: right;
+    
+    /* outline: solid red; */
+    /* border-bottom-width: 5px;
+    border-bottom:red ;
+    z-index: 3; */
+
+}
+
+nav li a{
+    opacity: 100%;
+    line-height: 3em;
+    /* text-shadow: royalblue; */
+    color:whitesmoke;
+    text-decoration: none;
+    /* background-image: linear-gradient(to right,black,whitesmoke) */
+
+
+}
+
+main nav li {
+    border-bottom:1px solid blue;
+    
+}
+
+
+nav::after{
+    text-decoration: underline;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.1em;
+    background: black;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right,black,white)
+}

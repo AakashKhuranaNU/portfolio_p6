@@ -1,0 +1,237 @@
+body{
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    /* background: linear-gradient(-45deg, black, gray, darkgray); */
+    background-image: url("images/jason-blackeye-FzURx0rFhUk-unsplash.jpg");
+    /* width: auto;
+    height: auto; */
+    background-size:1540px ;
+    /* opacity:10%; */
+	/* background-size: 2400px 2400px; */
+	/* animation: gradient 15s ease infinite; */
+}
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.top{
+    /* outline: solid red; */
+    width: 300px;
+    /* text-align: center; */
+    margin-top: 30px;
+    margin-left: 700px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight:bold;
+    font-size: 50px;
+    /* position: relative; */
+
+}
+
+.project-containers
+{
+    width:1000px;
+    height :500px;
+    display: block;
+    word-wrap: normal;
+    outline: solid pink;
+    margin-left: 450px;
+}
+
+.project{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    /* margin-bottom:20000px ; */
+    /* opacity: 70%; */
+    height: 200px;
+    width: 750px;
+    margin-bottom: 40px;
+    /* outline: solid red;   */
+    border: 2px  gray;
+    /* border-radius: 2%; */
+    box-shadow:5px 5px 5px gray;
+    background-color: whitesmoke;
+
+}
+
+.project:hover{
+    background-color: rgb(58, 58, 109);
+    color:white;
+}
+
+.project img {
+    margin-top:20px;
+    height: 170px;
+    width:130px;
+    position: relative;
+    display: inline-block;
+    outline: solid orange;
+
+}
+
+.project h3{
+    position: relative;
+    /* transform:translate(180px,-120px); */
+    /* width: 770px; */
+    top:-180px;
+    left:150px;
+    width: 600px;
+    font-size: 18px;
+    /* text-justify: auto; */
+    /* word-wrap: normal; */
+    /* display: inline; */
+    outline: solid orange;
+
+    
+}
+
+.project h2{
+    position: relative; 
+    /* transform:translate(200px,-120px); */
+    /* margin-top: -500px; */
+    top:-180px;
+    left:150px;
+    width: 200px;
+    font-size: 28px;
+    /* display: inline; */
+    outline: solid purple;
+    /* margin: 0px; */
+}
+
+#demo,#features{
+    width:95px;
+    height: 34px;
+    top: -180px;
+    left:150px;
+    background-color: rgba(31, 31, 53, 0.993);
+    color:white;
+    position: relative;
+    border-radius: 20px;
+    /* display: inline-block; */
+    /* transform:translate(-470px,-20px); */
+}
+#demo1,#features1{
+    width:95px;
+    height: 34px;
+    top: -160px;
+    left:150px;
+    background-color: rgba(31, 31, 53, 0.993);
+    color:white;
+    position: relative;
+    border-radius: 20px;
+    /* display: inline-block; */
+    /* transform:translate(-470px,-20px); */
+}
+#demo1 a{
+    text-decoration: none;
+    color:white;    
+}
+.main{
+    position: relative;
+    margin-left: -8px;
+    margin-top: -620px;
+    /* margin-top: ; */
+    width: 280px;
+    /* height:400px; */
+    /* transform: translate(0,-435px); */
+    z-index: 3;
+    color:white;
+    height: 735px;
+    /* outline: solid pink; */
+    background-color: black;
+    opacity: 0.75;
+
+}
+
+.main img{
+    position: relative;
+    width:150px;
+    height: 150px;
+    left:55px;
+    top:-25px;
+    /* margin-right: 10px; */
+    /* margin-left: 100px; */
+    border-radius: 50%;
+    opacity: 1.0;
+    /* outline: solid red; */
+    
+}
+
+
+
+.main nav{
+    position: relative;
+    padding-top:85px;
+    font-size:25px;
+    /* transform: translateY(10px); */
+    text-transform: uppercase;
+}
+
+nav ul{
+    list-style: none;
+    /* transform: translateY(130px); */
+    margin-top: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+li:hover{
+    text-decoration: underline;
+    color: teal;
+    text-shadow: royalblue;
+}
+
+
+nav li{
+    padding: 10px;
+
+    margin-left: 0px;
+    text-align: right;
+    
+    /* outline: solid red; */
+    /* border-bottom-width: 5px;
+    border-bottom:red ;
+    z-index: 3; */
+
+}
+
+nav li a{
+    opacity: 100%;
+    line-height: 3em;
+    /* text-shadow: royalblue; */
+    color:whitesmoke;
+    text-decoration: none;
+    /* background-image: linear-gradient(to right,black,whitesmoke) */
+
+
+}
+
+main nav li {
+    border-bottom:1px solid blue;
+    
+}
+
+
+li::after{
+    text-decoration: underline;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.1em;
+    background: black;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right,black,white)
+}

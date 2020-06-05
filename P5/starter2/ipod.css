@@ -1,0 +1,275 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	background-color: plum;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 0 black;
+	height: 40px;
+}
+
+.head-bar img{
+	padding: 5px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	max-height: 50px;
+	padding: 5px;
+	
+  }
+  
+  .column {
+	flex: 50%;
+	max-width: 70px;
+	padding:  10px;
+
+  }
+  
+
+.back-button {
+	margin-top: 4px;
+	float:left;
+	width:30px;
+	height:20px;
+}
+
+/* 
+	Albums 
+			*/
+			
+
+.album-container{
+	background-color: lavender;
+	display: grid;
+	grid-template-columns: auto auto;
+
+}
+.albums-album-wrapper {
+   width:130px;
+   text-align: center;
+}
+
+.albums-album-art img{
+	box-sizing: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	margin-top: 20px;
+	width: 130px;
+	height: AUTO;	
+
+}
+
+.albums-album-art img:hover{
+	box-shadow: 0px 4px rgb(146, 6, 146);	
+}
+
+.albums-album-name {
+	padding: 5px;
+	font-size: 16px;
+	padding-top: 10px;
+	font-weight: bolder;
+
+}
+
+
+ 
+
+.albums-album-name:hover, .albums-artist-name:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.albums-artist-name {
+	padding-bottom:10px;
+	font-size: 13px;
+	font-style:italic ;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+/* 
+	Songs 
+			*/
+.songs-info-wrapper {
+	display: inline;
+		
+}
+
+.songs-album-art {
+
+	padding: 10px;
+	width: 120px;
+	height:auto;
+	float: left;
+	margin-top: 9px;
+}
+
+.songs-album-name,.songs-artist-name,.songs-album-year  {
+	display:table;
+	margin-top: 25px;
+}
+
+.songs-album-name {
+	padding-top: 1px;
+	font-size: 1.4em;
+	font-weight: bolder;
+	margin-bottom: -10px;
+	margin-top: 30px;
+
+}
+
+
+.songs-artist-name {
+	
+
+	font-size: 1.0em;
+	font-weight: bold;
+	font-style: italic;
+	font-weight: 600;
+	margin-bottom: -10px;
+}
+
+.songs-text-info {
+		
+}
+
+.songs-album-year {
+
+	font-size: 1.0em;
+	font-weight: bold;
+	
+}
+
+.songs-list{
+	padding-top:1.7em ;
+	
+}
+
+.songs-list li{
+	outline: 2px;
+	outline-color: black;
+	width:220px;
+	font-size: 14px;
+	margin-bottom: 6px;
+	padding:4px;
+	outline-style: solid;
+	border-color: red;	
+}
+
+.songs-list a{
+	text-decoration: none;
+	color: black;
+}
+
+.songs-list >li:hover ,.songs-list >a >li:hover {
+	text-decoration: underline;
+	color: royalblue;
+	cursor: pointer;
+}
+
+.songs-list >li:active{
+	color: rgb(133, 7, 7);
+}
+
+.player-album-art {
+	display: block;
+	padding:10px;
+	width: 210px;
+	height:auto;
+    margin-left: auto;
+    margin-right: auto
+	
+}
+
+.player-song-info {
+	margin-top:-10px;
+	text-align: center;
+	color: purple;
+	
+}
+
+#player-song-name {
+	padding:0px;
+	margin-top: 5px;
+	text-align: center;
+	font-size: large;
+}
+
+#vl0,#vl1,#vl2,#vl3,#vl4,#vl5{
+	background-color:grey ;
+	display:inline-block;
+	margin:2px;	
+	height:6px;
+	width: 24px;
+	border:	1px;
+	margin-bottom: 8px;
+}
+
+.volume-bar {
+	display: inline-block;
+	margin:10px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+
+.volume-level {
+	background-color: white;
+	margin :5px;
+	margin-left: 45px;
+	width: 75px;
+	height: 25px;
+	font-size: large;
+}
+
+.volume-rocker {
+	margin-left: 10px;
+	margin-right:10px;
+	margin-top: -12px;
+}
+
+.player-controls{
+	display: block;
+	margin-left: 80px;
+}
+
+.time-container{
+	margin-left:30px;
+	margin-right: 10px;
+}
+
+#player-time {
+	display:block;
+	margin-left:40px;
+	width: 230px;
+	
+}
+
+#time-elapsed {
+	display: inline-block;
+	margin:5px;
+	margin-left: 10px ;
+	
+}
+
+#time-total{
+	display: inline-block;
+	margin-left: 170px;
+
+}
