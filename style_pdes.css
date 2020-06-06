@@ -1,17 +1,17 @@
 body{
     
-    background-image: url("images/stars_proj.png");
+    background-image: url("images/lake_dark_night_152415_3840x2160.jpg");
     background-size:  1600px;
     /* backdrop-filter: 10px; */
 }
 
 
 
-.biography{
+.prog{
     color: whitesmoke;
-    position: relative;
-    margin-top: -700px;
-    margin-left: 400px;
+    /* position: relative; */
+    margin-top: -750px;
+    margin-left: 550px;
     width:800px;
     font-size: 32px;
     border: thin;
@@ -19,23 +19,53 @@ body{
     /* outline: solid purple; */
 }
 
-
-.blog{
+.details{
     color: whitesmoke;
-    position: relative;
-    margin-top: 100px;
-    margin-left: 400px;
-    width: 900px;
-    font-size: 21px;
-    font-weight: bolder;
+    width:880px;
     text-align: justify;
-    /* outline: solid purple; */
+    margin-left:450px;
 
 }
-.biography p{
-    margin-top: -30px;
-    font-size: 25px;
+
+.pitch{
+    font-weight: 600;
+    font-size: 30px;
 }
+.pitch1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+
+}
+
+.features{
+    font-size: 18px;
+    font-weight: bold;
+}
+.features_h{
+    font-weight: 800;
+    font-size: 30px;
+}
+.team_h{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+hr{
+    background-color: teal;
+    height: 2px;
+}
+.team{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button{
+    position: relative;
+    top: -300px;
+    margin-left: 900px;
+}
+
 .main{
     position: relative;
     margin-left: -8px;
@@ -83,7 +113,7 @@ nav ul{
 
 }
 
-li:hover{
+nav ul li:hover{
     text-decoration: underline;
     color: teal;
     text-shadow: royalblue;
@@ -120,7 +150,7 @@ main nav li {
 }
 
 
-li::after{
+nav li::after{
     text-decoration: underline;
     content: '';
     position: absolute;
